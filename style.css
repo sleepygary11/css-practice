@@ -1,6 +1,14 @@
 body{
-    background-color: gray;
+    background-color: #333;
     color: darkgray;
 
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: navy;
+    
+    outline-style: line;
+    outline-color: white;
+    -webkit-text-stroke: .5px white;
 }
