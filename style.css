@@ -2,7 +2,12 @@ body{
     background-color: #333;
     color: darkgray;
 
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font: bolder 18px Ariel, Helvitica, sans-serif;
+    
+    line-height: 1.6em;
+
+    margin: 0;
 }
 
 h1{
@@ -11,4 +16,18 @@ h1{
     outline-style: line;
     outline-color: white;
     -webkit-text-stroke: .5px white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+
+    /* Same as in body */
+    color: darkgray;
+    
+    border: 3px yellow solid;
 }
